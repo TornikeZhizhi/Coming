@@ -1,0 +1,125 @@
+*{
+	padding: 0;
+	margin: 0;
+	outline: none;
+	border: none;
+	box-sizing: border-box;
+}
+
+
+@font-face {
+	font-family: 'Conv_Butler_Medium';
+	src: url('fonts/Butler_Medium.eot');
+	src: local('☺'), url('fonts/Butler_Medium.woff') format('woff'), url('fonts/Butler_Medium.ttf') format('truetype'), url('fonts/Butler_Medium.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_Sketch';
+	src: url('fonts/Sketch.eot');
+	src: local('☺'), url('fonts/Sketch.woff') format('woff'), url('fonts/Sketch.ttf') format('truetype'), url('fonts/Sketch.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_ProspectusStdBlk';
+	src: url('fonts/ProspectusStdBlk.eot');
+	src: local('☺'), url('fonts/ProspectusStdBlk.woff') format('woff'), url('fonts/ProspectusStdBlk.ttf') format('truetype'), url('fonts/ProspectusStdBlk.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+#main_wrapper {
+	background-color: #edc003;
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+
+}
+
+.main_content {
+	flex: 0 0 100%;
+	max-width: 600px;	
+	margin: 0 auto;
+	height: auto;
+
+}
+
+.logo_box {
+	text-align: center;
+}
+.main_text {
+	margin: 80px 0;
+}
+.main_text p {
+
+	font-size: 51px;
+	color: #0e023e;
+	display: inline;
+	font-family: 'Conv_ProspectusStdBlk';
+}
+
+.main_text span {
+
+	color: #0e023e;
+	font-size: 24px;
+	padding-left: 25px;
+	font-family: 'Conv_ProspectusStdBlk';
+}
+
+.coming_soon {
+	text-align: center;
+	position: relative;
+	  
+
+}
+
+
+.coming_soon span{
+	font-family: 'Conv_Sketch';
+	font-size: 75px;
+	color: #0e023e;
+	position: relative;
+	z-index: 1000;
+
+
+}
+
+
+.main_text_wrapper {
+	position: relative;
+	z-index: 2000;
+}
+
+.flower_l {
+	position: absolute;
+	top: 20%;
+	left: -60px;
+	z-index: 1;
+	
+}
+
+.flower_r {
+
+	position: absolute;
+	bottom: 4%;
+	right: 4%;
+	z-index: 1;
+	
+}
+
+.flower_c {
+
+	     position: absolute;
+    bottom: -82px;
+    left: 235px;
+    z-index: 1;
+    
+}
