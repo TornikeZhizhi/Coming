@@ -1,4 +1,13 @@
-var $layer_0 = $('.flower_l'),
+
+
+$(document).ready(function(){
+
+  var vw = $(window).width()
+
+
+  if (vw > 992) {
+
+    var $layer_0 = $('.flower_l'),
     $layer_1 = $('.flower_r'),
     $layer_2 = $('.flower_c'),
     $container = $('body'),
@@ -50,3 +59,9 @@ $(window).on('mousemove.parallax', function(event) {
     }
   )
 });
+  }
+
+
+
+})
+

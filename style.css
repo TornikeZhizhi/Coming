@@ -31,6 +31,13 @@
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'gsa';
+	src: url('fonts/HelveticaNeueLTGEOW82-75Bd.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
 
 #main_wrapper {
 	background-color: #edc003;
@@ -71,7 +78,8 @@
 	color: #0e023e;
 	font-size: 24px;
 	padding-left: 25px;
-	font-family: 'Conv_ProspectusStdBlk';
+	font-weight: bold;
+	font-family: 'helvetica';
 }
 
 .coming_soon {
@@ -122,4 +130,82 @@
     left: 235px;
     z-index: 1;
     
+}
+
+
+@media (max-width: 1250px) {
+
+
+.flower_l img {
+	width: 200px;
+}
+
+.flower_l {
+
+    left: -41px;
+   
+}
+
+.main_text p {
+    font-size: 45px;
+}
+
+
+}
+
+
+@media (max-width: 992px) {
+.logo_box img {
+	width: 78px;
+}
+
+.main_text p {
+    font-size: 19px;
+    
+}
+
+.main_text span {
+       font-size: 13px;
+    float: right;
+    padding-top: 5px;
+}
+
+.flower_l {
+	left: -20px;
+	top: 8%;
+}
+
+.flower_l img {
+	width: 120px;
+}
+
+.main_text {
+    margin: 30px 15px 50px;
+}
+
+.coming_soon span {
+    font-size: 40px;
+}
+
+.flower_r img{
+	width: 100px;
+
+}
+
+.flower_c img {
+	width: 80px;
+}
+
+.flower_c {
+	left: 50%;
+	transform: translateX(-50%);
+	    bottom: -50px;
+}
+.flower_r {
+
+    bottom: 2%;
+    right: 3%;
+   
+}
+
 }
